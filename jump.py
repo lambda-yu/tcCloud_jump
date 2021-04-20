@@ -48,6 +48,4 @@ class Jump(object):
 
 if __name__ == '__main__':
     j = Jump("", "", "tc_request")
-    print(time.time())
     res = j.get("http://www.baidu.com")
-    print(time.time())
