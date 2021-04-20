@@ -47,5 +47,5 @@ class Jump(object):
     
 
 if __name__ == '__main__':
-    j = Jump("", "", "tc_request")
+    j = Jump("", "", "")
     res = j.get("http://www.baidu.com")
